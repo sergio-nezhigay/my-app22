@@ -1,26 +1,32 @@
 .app {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8f8f8;
 }
 
 .header {
-  background-color: #f2f2f2;
+  background-color: #ffcc00;
   padding: 20px;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .sidebar {
-  background-color: #f8f8f8;
-  width: 200px;
+  background-color: #ff6699;
   padding: 20px;
+  width: 250px;
+  color: #ffffff;
 }
 
-.main-content {
+.content {
   flex-grow: 1;
-  background-color: #ffffff;
   padding: 20px;
+  background-color: #66ccff;
+  color: #ffffff;
+}
+
+ul,
+ol {
+  padding-left: 20px;
 }
