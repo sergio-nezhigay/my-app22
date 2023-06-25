@@ -12,6 +12,10 @@
   color: #ffffff;
 }
 
+.container {
+  display: flex;
+}
+
 .sidebar {
   background-color: #ff6699;
   padding: 20px;
